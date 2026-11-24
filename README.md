@@ -42,6 +42,8 @@ Apply steganography detection tools like steghide, zsteg, or binwalk to uncover 
 sudo apt update
 sudo apt install exiftool -y
 ```
+<img width="1000" height="642" alt="image" src="https://github.com/user-attachments/assets/8f570f47-b4dd-4a03-ac12-5043a95d830d" />
+
 - **Extract metadata from a file:**
 ```bash
 exiftool image.jpg
@@ -50,6 +52,7 @@ exiftool image.jpg
 ```bash
 exiftool -r /path/to/folder
 ```
+
 - **Useful flags:**
   
 - ```-G: Show metadata group```
@@ -58,6 +61,7 @@ exiftool -r /path/to/folder
 
 - ```-GPSLatitude -GPSLongitude: Extract GPS data```
 
+<img width="1000" height="850" alt="image" src="https://github.com/user-attachments/assets/7af2f391-f523-42e3-aeae-18c8ed7959fb" />
 
 
 ### install log2timeline
@@ -72,6 +76,7 @@ sudo apt install steghide -y
 ```
 steghide embed -cf /home/kali/Downloads/wallpaper.jpg -ef /home/kali/Downloads/secret.txt
 ```
+<img width="1000" height="850" alt="image" src="https://github.com/user-attachments/assets/14c78939-5c98-45ee-b51f-4484c66ee867" />
 
 
 - **Extract hidden data:**
@@ -89,6 +94,7 @@ binwalk suspicious.jpg
 ```bash
 binwalk /home/kali/Downloads/wallpaper.jpg
 ```
+<img width="1000" height="850" alt="image" src="https://github.com/user-attachments/assets/e8efb941-1b5c-4922-ac12-86c2d54924a7" />
 
 
 ## RESULT:
